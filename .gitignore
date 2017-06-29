@@ -1,0 +1,9 @@
+*.swp
+*.swo
+*~
+weechat*
+*.tar
+*.gz
+.env*
+envfile
+

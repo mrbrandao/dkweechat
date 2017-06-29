@@ -1,0 +1,13 @@
+---
+  version: '2'
+  services:
+    wee:
+      build: ./
+      ports:
+        - "5000:22"
+      volumes:
+        - ${pubkey}:/home/weechat/.ssh/authorized_keys
+        - weechat:/data:rw
+  volumes:
+    weechat:
+      external: true
