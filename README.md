@@ -1,5 +1,11 @@
 # dkweechat aka Docker Weechat #
 
+
+<p align="center">
+  <img src="https://github.com/isca0/dkweechat/blob/master/shots/shot.png"/>
+<!-- ![Docker Weechat Tmux](https://github.com/isca0/dkweechat/blob/master/shots/shot.png) --> 
+</p>
+
 Weechat is a nice IRC client and this project gives you a nice docker container to use weechat and all your scripts.
 Yes, it's very cool now you be able to stay connect forever on IRC network, and you can also add you favorite Slack teams too... All you will need is an ssh connection to this container and voilá,
 you are ready to stay live forever on a tmux stick session on all your favorite channels...
