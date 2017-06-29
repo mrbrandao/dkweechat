@@ -22,7 +22,7 @@ E.g. ```$ set -a; export pubkey=/home/myuser/.ssh/id_rsa.pub;docker-compose up``
 But here is a script to take this action even more simple, just run:
 
  ```
-  ./setup.sh
+  ./setup.sh run
  ```
 Just run setup and it will guide you trough a simple steps and run this container :crystal_ball: automagically :crystal_ball:
 
@@ -48,11 +48,11 @@ _For example if you run on your localmachine you can access with ```ssh weechat@
 **Can i backup my weechat settings and files? How?**
 
 - _Yes you can backup all your settings on a tarball file.
-_ Just run ```./setup.sh bkp``` and it gon build a main tarball called **weechat.tar.gz** on the root folder of this project._
+_ Just run ```./setup.sh bkp``` and it gon build a main tarball called **dkweechat.tar.gz** on the root folder of this project._
 
 **How can i restore my files?**
 
-- _Just place a filed called weechat.tar.gz on the root folder of this project and it will be restored with command ```./setup.sh restore```._
+- _Just place a filed called dkweechat.tar.gz on the root folder of this project and it will be restored with command ```./setup.sh restore```._
 _This restore will only work for files backuped by the command ```setup.sh bkp``` ._
 
 

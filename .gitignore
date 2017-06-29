@@ -6,4 +6,5 @@ weechat*
 *.gz
 .env*
 envfile
+dkweechat*
 
