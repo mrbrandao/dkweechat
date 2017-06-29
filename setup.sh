@@ -35,7 +35,7 @@ compose(){
 backup(){
 
   if [ -e $(pwd)/dkweechat.tar.gz ]; then
-    mv $(pwd)/dkweechat.tar.gz $(pwd)/weechat-$(date +%d-%m-%y-%N).tar.gz
+    mv $(pwd)/dkweechat.tar.gz $(pwd)/dkweechat-$(date +%d-%m-%y-%N).tar.gz
   fi
   docker run --rm -v weechat:/data -v $(pwd):/backup --name weechatbkp alpine tar cvzf /backup/dkweechat.tar.gz /data
 
