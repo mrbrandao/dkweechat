@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/isca0/dkweechat/blob/master/shots/weechat-shot.png"/>
+  <img src="https://github.com/isca0/dkweechat/blob/master/shots/chatshot.png"/>
 <!-- ![Docker Weechat Tmux](https://github.com/isca0/dkweechat/blob/master/shots/shot.png) --> 
 </p>
 
@@ -76,9 +76,9 @@ _ Just run ```./setup.sh bkp``` and it gon build a main tarball called **dkweech
 - _Just place a filed called dkweechat.tar.gz on the root folder of this project and it will be restored with command ```./setup.sh restore```._
 _This restore will only work for files backuped by the command ```setup.sh bkp``` ._
 
-**How run without auto restore?**
+**How run without auto restore from scratch?**
 
-- _Just remove file dkweechat.tar.gz from main root folder of this project._
+- _Just remove file dkweechat.tar.gz from main root folder of this project, run ```docker-compose down; docker volume rm weechat```, then run setup again.
 
 
 ## Requirements ##
