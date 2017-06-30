@@ -63,13 +63,13 @@ _Ps. the weechat volume name is hardcoded and if already have one volume with th
 
 **How can i access the weechat?**
 
-- _You access weechat trough ssh connection over port 5000 on your host_
-_For example if you run on your localmachine you can access with ```ssh weechat@localhost -p 5000```_
+- _You access weechat trough ssh connection over port 5000 on your host. <br>
+For example if you are running on your localmachine, them you can access with command:  ```ssh weechat@localhost -p 5000```_
 
 **Can i backup my weechat settings and files? How?**
 
-- _Yes you can backup all your settings on a tarball file.
-_ Just run ```./setup.sh bkp``` and it gon build a main tarball called **dkweechat.tar.gz** on the root folder of this project._
+- _Yes you can backup all your settings on a tarball file. <br>
+Just run ```./setup.sh bkp``` and it gon build a main tarball called **dkweechat.tar.gz** on the root folder of this project._
 
 **How can i restore my files?**
 
@@ -78,7 +78,7 @@ _This restore will only work for files backuped by the command ```setup.sh bkp``
 
 **How run without auto restore from scratch?**
 
-- _Just remove file dkweechat.tar.gz from main root folder of this project, run ```docker-compose down; docker volume rm weechat```, then run setup again.
+- _Remove file dkweechat.tar.gz from main root folder of this project, and run ```docker-compose down; docker volume rm weechat```, then run setup again._
 
 
 ## Requirements ##
