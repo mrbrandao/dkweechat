@@ -49,14 +49,15 @@ Or you can just place you full ssh public key path on docker-compose.yml on volu
 
 ```
 
-If you want to understant what it's dooing manually:
+If you want to understant what it's doing manually:
 
   * export pubkey=path_to_my_key
   * check if the volume weechat exist and if not  then create. (This volume is where your settings will be persisted)
   * check if you already have a backup and if it exist restore them on weechat volume
   * docker-compose up -d && docker-compose logs -f
   
-_Ps. the weechat volume name is hardcoded and if already have one volume with this same name it will create a data folder inside to use weechat_
+_Ps. the weechat volume name is hardcoded, and if you already have one volume with this same name, setup.sh will create a data folder to weechat.<br>
+If you don't have a weechat volume and don't want to run setup script, then you will need to manually create weechat docker volume with command: ```docker volume create --name weechat```_
 
 
 ## FAQ ##
