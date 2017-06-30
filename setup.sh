@@ -58,7 +58,7 @@ helpme(){
       "$cyan"run      "$pink"-->"$clean"  Build container and run with docker-compose
       "$cyan"bkp      "$pink"-->"$clean"  Create a backup file "$red"dkweechat.tar.gz"$clean" with settings of the container vol
       "$cyan"restore  "$pink"-->"$clean"  Restore backup file dkweechat.tar.gz to the weechat volume
-      "$cyan"help     "$pink"-->"$clean"  Diplay this help
+      "$cyan"help     "$pink"-->"$clean"  Display this help
       \n"
 }
 
