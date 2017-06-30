@@ -8,6 +8,7 @@
       volumes:
         - ${pubkey}:/home/weechat/.ssh/authorized_keys
         - weechat:/data:rw
+        - /etc/localtime:/etc/localtime:ro
   volumes:
     weechat:
       external: true
